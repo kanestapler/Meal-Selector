@@ -14,6 +14,7 @@
 		8C0C61D71F53AE80005882E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0C61D51F53AE80005882E0 /* LaunchScreen.storyboard */; };
 		8C0C61E21F53AE80005882E0 /* MyFirstiOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0C61E11F53AE80005882E0 /* MyFirstiOSAppTests.swift */; };
 		8C0C61ED1F53AE80005882E0 /* MyFirstiOSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0C61EC1F53AE80005882E0 /* MyFirstiOSAppUITests.swift */; };
+		8C0C61FB1F5F70B4005882E0 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0C61FA1F5F70B4005882E0 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8C0C61E81F53AE80005882E0 /* MyFirstiOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstiOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0C61EC1F53AE80005882E0 /* MyFirstiOSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstiOSAppUITests.swift; sourceTree = "<group>"; };
 		8C0C61EE1F53AE80005882E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C0C61FA1F5F70B4005882E0 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				8C0C61CC1F53AE80005882E0 /* AppDelegate.swift */,
 				8C0C61CE1F53AE80005882E0 /* ViewController.swift */,
+				8C0C61FA1F5F70B4005882E0 /* RatingControl.swift */,
 				8C0C61D01F53AE80005882E0 /* Main.storyboard */,
 				8C0C61D31F53AE80005882E0 /* Assets.xcassets */,
 				8C0C61D51F53AE80005882E0 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C0C61CF1F53AE80005882E0 /* ViewController.swift in Sources */,
+				8C0C61FB1F5F70B4005882E0 /* RatingControl.swift in Sources */,
 				8C0C61CD1F53AE80005882E0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
